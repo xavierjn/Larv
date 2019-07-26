@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: cozumel
+        psr4_prefix: cozumel
+        src_path: app
