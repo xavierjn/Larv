@@ -13,7 +13,7 @@
 
 Route::get('control','pruebaController@index');
 Route::get('nombre/{nombre}','pruebaController@nombre');
-
+Route::resource('area','areaController')
 
 
 Route::get('prueba', function(){

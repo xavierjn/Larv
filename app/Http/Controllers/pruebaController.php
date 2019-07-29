@@ -14,6 +14,7 @@ class pruebaController extends Controller {
 	{
 		return "wi";
 	}
+
 	
 	public function nombre($nombre)
 	{
